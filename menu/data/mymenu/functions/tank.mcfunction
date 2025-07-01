@@ -8,4 +8,4 @@ item replace entity @p weapon.mainhand with minecraft:stone_sword
 effect give @p minecraft:slowness infinite 0 true
 
 # 提示信息
-tellraw @p {"text":"你已变身为重甲兵！获得钻石套装和坦克特性（移动缓慢但高防御）。","color":"gold"}
+tellraw @p {"text":"你已成为重甲兵！获得高额护甲与护盾，但灵活性降低。","color":"gold"}

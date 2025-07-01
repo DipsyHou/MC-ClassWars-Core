@@ -4,4 +4,4 @@ item replace entity @p weapon.offhand with minecraft:written_book{title:"世界�
 
 
 # 提示信息
-tellraw @p {"text":"你已变身为图书管理员！获得世界大典，通过阅读可以获得多种增益。","color":"gold"}
+tellraw @p {"text":"你已成为图书管理员！获得世界大典，通过阅读可以获得多种增益。","color":"gold"}

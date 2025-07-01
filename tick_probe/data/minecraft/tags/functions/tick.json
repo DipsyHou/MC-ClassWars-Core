@@ -1,3 +1,6 @@
 {
-  "values": ["tick_probe:tick"]
+  "values": [
+    "tick_probe:scoreboard",
+    "tick_probe:assassin"
+  ]
 }

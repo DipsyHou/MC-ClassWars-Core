@@ -15,3 +15,4 @@ scoreboard objectives add pearl_use minecraft.used:minecraft.ender_pearl
 # magician
 scoreboard objectives add magician_damage minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add knockback_stick_cooldown dummy
+scoreboard objectives add death_rec_for_magician deathCount

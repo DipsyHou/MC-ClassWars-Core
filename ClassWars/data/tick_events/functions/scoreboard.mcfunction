@@ -1,16 +1,3 @@
-# scorboard const
-scoreboard players set #CONST Const100 100
-
-
-# scoreboard
-scoreboard objectives add Kill totalKillCount
-scoreboard objectives add Death deathCount
-scoreboard objectives add Kill_rec totalKillCount
-scoreboard objectives add Death_rec deathCount
-scoreboard objectives add KDR dummy
-
-# 3s timer
-scoreboard objectives add ShowTimer dummy
 execute as @a[scores={Death_rec=1..}] run scoreboard players set @s ShowTimer 60
 execute as @a[scores={Death_rec=1..}] run scoreboard players reset @s Death_rec
 execute as @a[scores={Kill_rec=1..}] run scoreboard players set @s ShowTimer 60

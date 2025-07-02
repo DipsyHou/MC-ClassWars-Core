@@ -1,4 +1,4 @@
-effect give @p minecraft:jump_boost infinite 6 true
+effect give @p minecraft:jump_boost infinite 4 true
 effect give @p minecraft:speed infinite 0 true
 
 item replace entity @p weapon.mainhand with minecraft:iron_sword

@@ -1,0 +1,6 @@
+{
+  "values": [
+    "load_events:initialize",
+    "load_events:scoreboard_initialize"
+  ]
+}

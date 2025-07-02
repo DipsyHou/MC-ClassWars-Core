@@ -1,0 +1,7 @@
+{
+  "values": [
+    "tick_events:scoreboard",
+    "tick_events:assassin",
+    "tick_events:magician"
+  ]
+}

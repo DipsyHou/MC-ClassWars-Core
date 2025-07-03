@@ -23,7 +23,7 @@
 
 ## Tips:
 
-- Use `F3+T` in game to reload datapacks after installation  
+- Use command `/reload` in game to reload datapacks after installation  
 - For multiplayer, ensure the datapack is installed server-side  
 - Simply delete the pack from `datapacks` folder to remove completely
 

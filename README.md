@@ -10,7 +10,7 @@
 
 ## Minecraft Version
 
-- ✅ **Compatible with** Minecraft 1.20.1  
+Compatible with Minecraft 1.20.1  
 
 ## How to Use
 
@@ -34,7 +34,8 @@
 - Implemented live scoreboard
 - New playable class: `Reptilian` with unique abilities
 
-### v1.1 - July 2, 2025
-- New playable class: `Archer` and  `Magician`
+### v1.1 - July 4, 2025
+- New playable class: `Archer`, `Magician`, `guardian` and `Grace`
 - Nerfed Reptilian's maximum vertical jump height (7.8m → 5.3m)
-- Optimized directory tree structure and naming convention
+- Optimized directory tree structure and naming convention (thoroughly!)
+- Now `librarian` can only have one ability at a time

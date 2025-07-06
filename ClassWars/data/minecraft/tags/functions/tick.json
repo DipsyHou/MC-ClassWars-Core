@@ -4,6 +4,7 @@
     "tick_events:assassin",
     "tick_events:magician",
     "classes:guardian/tick",
-    "classes:grace/tick"
+    "classes:grace/tick",
+    "classes:werewolf/tick"
   ]
 }

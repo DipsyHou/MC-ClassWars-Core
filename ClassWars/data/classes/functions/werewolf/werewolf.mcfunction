@@ -1,0 +1,1 @@
+scoreboard players set @s werewolf_blood_imprint 0

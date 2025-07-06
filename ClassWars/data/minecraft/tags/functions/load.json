@@ -3,6 +3,7 @@
     "load_events:initialize",
     "load_events:scoreboard_initialize",
     "classes:guardian/init",
-    "classes:grace/init"
+    "classes:grace/init",
+    "classes:werewolf/init"
   ]
 }

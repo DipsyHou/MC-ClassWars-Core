@@ -1,4 +1,12 @@
 execute as @a[scores={Death_rec=1..}] run scoreboard players set @s ShowTimer 60
+
+
+# 玩家死亡重置各种冷却与标记
+execute as @a[scores={Death_rec=1..}] run scoreboard players set @s werewolf_blood_imprint -1
+execute as @a[scores={Death_rec=1..}] run scoreboard players set @s werewolf_is_wolf -1
+# 重置完成
+
+
 execute as @a[scores={Death_rec=1..}] run scoreboard players reset @s Death_rec
 execute as @a[scores={Kill_rec=1..}] run scoreboard players set @s ShowTimer 60
 execute as @a[scores={Kill_rec=1..}] run scoreboard players reset @s Kill_rec

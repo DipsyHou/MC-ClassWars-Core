@@ -4,6 +4,11 @@ tellraw @a [{"text":"Github page: ","color":"yellow"},{"text":"https://github.co
 tellraw @a {"text":"Email: dipsyhou@gmail.com","color":"aqua"}
 
 
-give @a minecraft:apple 1
-
 kill @e[type=!minecraft:player]
+
+team add default
+team modify default nametagVisibility never
+team join default @a
+
+scoreboard objectives add health health {"text":"❤","color":"red"}
+scoreboard objectives setdisplay list health

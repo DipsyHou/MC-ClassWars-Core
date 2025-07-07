@@ -7,5 +7,3 @@ execute as @a[scores={guardian_sheild_timer=1}] run scoreboard players set @s gu
 
 execute as @a[scores={guardian_death_rec=1..}] run scoreboard players set @s guardian_sheild_timer 0
 execute as @a[scores={guardian_death_rec=1..}] run scoreboard players reset @s guardian_death_rec
-
-execute as @a[nbt={AbsorptionAmount:1.0f..}] run effect give @s resistance 2 0 true
